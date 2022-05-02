@@ -16,11 +16,12 @@ html{
 }
 
 
+/* this is the main container */
 
 .main{
 
 
-    background-color: aqua;
+    background-color: whitesmoke    ;
     height: 100vh;
     width: 100%;
 
@@ -31,6 +32,8 @@ html{
     align-content: center;
 }
 
+
+/* sub-content of main */
 
 .content{
 
@@ -48,6 +51,13 @@ html{
 
 
 
+
+
+
+
+
+
+/* content has two boxes */
 .box-1{
 
 background-color: darkmagenta;
@@ -87,13 +97,24 @@ align-content: center;
 }
 
 
+
+
+
+
+
+
+
+/* box-1 has two sub boxes */
+
+
+
 .sub-1{
 
     margin: 10px;
     width: 80%;
     height: 50%;
-
-    background-color: chartreuse;
+     display: flex;
+     background-color: chartreuse;
 }
 
 
@@ -109,11 +130,194 @@ align-content: center;
 }
 
 
+
+
+
+
+
+
+
+
+
+/* the two sub boxes contain two more boxes */
 .dom-1{
+
+
+    
+
     width: 60%;
     height: 90%;
     margin: 10px;
+    border-radius: 10px;
+    background-color: hsl(263, 55%, 52%);
+    }
 
-    background-color: coral;
+.dom-2{
+    width: 30%;
+    height: 90%;
+    margin: 10px;
+
+
+    background-color: antiquewhite;
+}
+
+
+
+
+
+/* divs containing texts */
+
+
+.tom{
+    width: 70%;
+    height: 30%;
+
+    margin: 5px;
+    
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+
+
+
+    display: flex;
+    
+}
+
+#tomy{
+    margin-left: 28px;
+    justify-content: flex-start;
+    background-color: yellow;
+   
+}
+
+
+
+
+.tom-1{
+    
+    width: 50px;
+    height: 50px;
+
+    margin-left: 0px;
+
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  background-image: url(daniel.jpg);
+   background-color: aqua;
+    border-radius: 50%;
+}
+
+
+
+.tom-2{
+    align-items: center;
+    justify-content: center;
+  margin-left:  25px; 
+  padding: 0px;
+  background-color: red;
+  
+  width:50%;
+  
+  
+  
+}
+
+.tom-2 h2 {
+
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+  
+
+#tomm{
+    margin-bottom: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    font-size: 12px;
+
+    color: whitesmoke;
+  
+
+
+}
+
+#tommm{
+    margin-top: 0px;
+    color: hsl(0, 0%, 80%);
+    font-size: 10px;
+}
+
+
+
+.dick{
+  
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#dickk{
+    margin-top: 0px;
+    margin-left: 26px;
+    margin-right:29px ;
+    font-size: 18px;
+    color: white;
+
+}
+
+#jona{
+
+    margin-top: 0px;
+    margin-left: 26px;
+    margin-right:29px ;
+    font-size: 18px;
+    color: white;
+
+
+}
+
+.harry{
+    margin: 15px;
+    color: whitesmoke;
+    
+}
+
+
+.arry{
+    margin: 15px;
+    color: whitesmoke;
+ 
+    height: 50%;
+}
+
+
+
+/* plugins */
+
+#harr{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+
+
+
+#paul{
+
+    background-image: url(jonathan.jpg);
+}
+
+
+#jake{
+
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
 }
 
