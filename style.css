@@ -1,6 +1,11 @@
-body{
 
-    margin: 0%;
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -8,26 +13,23 @@ body{
 
 
 html{
-    
-    
     justify-content: center;
     align-items: center;
     align-content: center;
+
 }
 
 
+::-webkit-scrollbar{
+    display: none;
+}
 /* this is the main container */
 
 .main{
-
-
     background-color: whitesmoke    ;
     height: 100vh;
     width: 100%;
-
     display: flex;
-
-    
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -41,59 +43,34 @@ html{
     background-color: blue;
     height: 90%;
     width: 90%;
-
-
     display: flex;
-    
     justify-content: center;
     align-items: center;
     align-content: center;
 }
-
-
-
-
-
-
 
 
 
 /* content has two boxes */
 .box-1{
-
-
-
 width: 70%;
 height: 90%;
 margin: -81px;
-
-
-
 display: flex;
 flex-direction: column;
-    
 justify-content: center;
 align-items: center;
 align-content: center;
-
 }
 
 
 .box-2{
-
-
     width: 30%;
     margin: 10px;
     height: 90%;
-
     background-color: beige;
-
-
-    
     display: flex;
-
     flex-direction: column;
-    
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -101,58 +78,29 @@ align-content: center;
 
 
 
-
-
-
-
-
-
 /* box-1 has two sub boxes */
-
-
-
 .sub-1{
-
     margin: 10px;
     width: 80%;
     height: 50%;
      display: flex;
-
-     background-color: brown;
-    
 }
 
 
 .sub-2{
-
     margin: 10px;
     width: 80%;
     height: 50%;
-
     display: flex;
-    background-color: yellow ;
-
-    
 }
-
-
-
-
-
-
-
-
 
 
 
 /* the two sub boxes contain two more boxes */
 .dom-1{
 
-
-    
-
     width: 60%;
-    height: 90%;
+    height: auto;
     margin: 10px;
     border-radius: 10px;
     background-color: hsl(263, 55%, 52%);
@@ -163,30 +111,21 @@ align-content: center;
     height: 90%;
     margin: 10px;
     color: rgb(37, 60, 61);
-
     border-radius: 10px;
     background-color: white;
 }
 
 
 
-
-
 /* divs containing texts */
-
 
 .tom{
     width: 70%;
     height: 30%;
-
     margin: 5px;
-    
     align-items: center;
     justify-content: center;
     justify-content: center;
-
-
-
     display: flex;
     
 }
@@ -194,28 +133,19 @@ align-content: center;
 #tomy{
     margin-left: 28px;
     justify-content: flex-start;
-    
-   
 }
 
 
-
-
 .tom-1{
-    
     width: 30px;
     height: 30px;
-
     margin-left: 0px;
-
-
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
   background-image: url(daniel.jpg);
    background-color: aqua;
-
    background-size: cover;
     border-radius: 50%;
 }
@@ -227,12 +157,7 @@ align-content: center;
     justify-content: center;
   margin-left:  10px; 
   padding: 0px;
-
-  
   width:50%;
-  
-  
-  
 }
 
   
@@ -242,12 +167,9 @@ align-content: center;
     padding-right: 0px;
     margin-right: 0px;
     font-size: 7px;
-
     color: whitesmoke;
-  
-
-
 }
+
 
 #tommm{
     margin-top: 0px;
@@ -256,14 +178,12 @@ align-content: center;
 }
 
 
-
 .dick{
-  
     margin-top: 0px;
     align-items: center;
     justify-content: center;
-
 }
+
 
 #dickk{
     margin-top: 0px;
@@ -271,25 +191,23 @@ align-content: center;
     margin-right:29px ;
     font-size: 10px;
     color: white;
-
 }
 
-#jona{
 
+#jona{
     margin-top: 0px;
     margin-left: 26px;
     margin-right:29px ;
     font-size: 10px;
     color: white;
-
-
 }
+
 
 .harry{
     margin: 15px;
     color: whitesmoke;
-    
 }
+
 
 #harr{
     font-size: 8px;
@@ -298,33 +216,21 @@ align-content: center;
 .arry{
     margin: 15px;
     color: whitesmoke;
- 
     height: 50%;
 }
 
 
-
-
-
-
 /* 4th box */
-
-
 .tom-1a{
-    
     width: 30px;
     height: 30px;
-
     margin-left: 0px;
-
-
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
-  background-image: url(patrick.jpg);
+   background-image: url(patrick.jpg);
    background-color: aqua;
-
    background-size: cover;
     border-radius: 50%;
 }
@@ -333,28 +239,16 @@ align-content: center;
 
 /* 5th box */
 .box-2{
-
-
     width: 18%;
     margin: 10px;
     height: 82%;
-
     background-color: beige;
-
     border-radius: 10px;
-
-
         padding-top: 0px;
         padding-bottom: 0px;
-
         margin-left: -10px;
-
-     
-    
     display: flex;
-
     flex-direction: column;
-    
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -363,73 +257,13 @@ align-content: center;
 
 
 #kira{
-   
-    justify-content: flex-start;
-    
-
-
+    justify-content: flex-start;   
     margin-left: -12px;
-
     margin-bottom: 0px;
     margin-top: -55px;
     height: 50px;
-
-    padding-bottom: 0px;
-   
+    padding-bottom: 0px;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* plugins */
@@ -439,20 +273,15 @@ align-content: center;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 8px;
-   
 }
 
 
-
-
 #paul{
-
     background-image: url(jonathan.jpg);
 }
 
 
 #jake{
-
     border-radius: 10px;
     background-color: hsl(217, 19%, 35%);
 }
@@ -476,49 +305,32 @@ align-content: center;
 }
 
 #jon{
-
     margin-top: 0px;
     margin-left: 26px;
     margin-right:29px ;
     font-size: 10px;
     color: rgb(37, 60, 61);
-
-
 }
 
 .arr{
     margin: 15px;
     color: rgb(37, 60, 61);
- 
     height: 50%;
 }
 
 
-
-
-
-
-@media  (max-width: 1200px){
-
-
+@media  (max-width: 1024px){
     .main{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
-
-
-
     }
-  
 
+    
     .content{
-
         position: relative;
-        transform: translateY(-50%);
-
-        
+        transform: translateY(-50%);        
         top: 50%;
     }
 
@@ -528,79 +340,69 @@ align-content: center;
         height: 100%;
         width: 100%;
     }
-
    
     .box-2{
       align-items: center;
       justify-content: center;
       height: 75%;
-
       width: 20%;
-
-
       margin-left: -110px;
         margin-top: -20px;
     }
     
     .box-2 #harr{
-        
      background-color: aquamarine;
      margin-top: -18px;
-        display: flex;
+     display: flex;
      height: 40%;
-
-  
-       
     }
 
 
 .harry{
     padding-bottom: -10px;
-    ;
 }
 
 
 #harr{
-   
     padding-bottom: -10px;
 }
 
-
-
 .dom-1{
-
     height: 70%;
 }
-
 
 .dom-2{
     height: 70%;
 }
 
-
 .sub-1{
-
     margin-bottom: -20px ;
-
     align-items: center;
 }
-
 
 .sub-2{
     align-items: center;
-
     margin-top: -50px;
+}
+
 
 }
 
 
-
+@media screen and (max-width:600px) {
+    .sub-1, .sub-2{
+    display: grid;
+    margin: auto;
+    
 }
 
 
 
-/*media quereies for smaller srceen*/
+    .dom-1, .dom-2{
+        height: fit-content;
+        width: fit-content;
+    }
 
-@media screen and (max-width:600px)
 
-
+    
+}
